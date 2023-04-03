@@ -1,0 +1,115 @@
+body {
+	background-color: #E7BC91; 
+	color: #BC8A5F;
+	font-family: 'Luckiest Guy', cursive;
+	text-align: center;
+	}
+
+h1 {
+	font-size: 30px;
+	letter-spacing: 2px;
+	color: #603808;
+	font-family: 'DM Serif Display', serif;
+	}
+
+h2 {
+	color: #8B5E34
+}
+
+a{
+	text-decoration: none;
+	color: #603808	
+}
+
+a:hover {
+	color: #9A031E;
+	text-decoration: underline;
+}
+p {
+	font-family: 'Alkatra', cursive;
+}
+
+/*Custom design with class*/
+.container{
+	width: 700px
+	margin: 40px auto;
+}
+
+.card-beige {
+	background-color: #FFEDD8;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+	border-radius: 10px;
+	margin: 30px 70px 0px;
+}
+
+.img-circle {
+	border-radius: 6%;
+}
+
+.button-brown {
+
+	background-color: #E7BC91;
+	padding: 15px 15px;
+	border-radius: 5px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px; 
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	margin: 10px auto;
+}
+
+#introduction p{
+	margin-bottom: 30px;
+}
+
+@media (max-width: 550px) {
+	.container {
+		width: 400px auto;
+	}
+	.img-circle {
+		width: 150px;
+	}
+}
+@media (max-width: 700px) {
+	.container {
+		width: 550px auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
